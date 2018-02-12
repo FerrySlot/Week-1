@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Week 1: Frontend voor Designers</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+
+	<body>
+		<h1>Filter foto's op kleur</h1>
+
+		<div id="colorbuttons">
+			<div id="showall"><a>Show All</a></div>
+			<div class="colorsquare activebutton" id="bluebutton" onclick="showImages(1)"></div>
+			<div class="colorsquare activebutton" id="redbutton" onclick="showImages(2)"></div>
+			<div class="colorsquare activebutton" id="greenbutton" onclick="showImages(3)"></div>
+			<div class="colorsquare activebutton" id="yellowbutton" onclick="showImages(4)"></div>
+		</div>
+
+		<div id="imagesection">
+			<img src="images/blue1.jpg" class="imagesquare blue">
+			<img src="images/blue1.jpg" class="imagesquare blue">
+			<img src="images/blue1.jpg" class="imagesquare blue">
+			<img src="images/red1.jpg" class="imagesquare red">
+			<img src="images/red1.jpg" class="imagesquare red">
+			<img src="images/red1.jpg" class="imagesquare red">
+			<img src="images/green1.jpg" class="imagesquare green">
+			<img src="images/green1.jpg" class="imagesquare green">
+			<img src="images/green1.jpg" class="imagesquare green">
+			<img src="images/yellow1.jpg" class="imagesquare yellow">
+			<img src="images/yellow1.jpg" class="imagesquare yellow">
+			<img src="images/yellow1.jpg" class="imagesquare yellow">
+		</div>
+	</body>
+<script src="js.js"></script>
+</html>

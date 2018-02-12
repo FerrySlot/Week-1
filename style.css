@@ -1,0 +1,121 @@
+
+
+/*.   Layout Css.   */
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+}
+section{
+
+}
+
+body{
+	background-color: #fafafa;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-weight: 100;
+}
+
+#colorbuttons{
+	display: block;
+	padding: 0px;
+	margin: 0 auto;
+	width: 300px;
+	text-align: center;
+	cursor: pointer;
+	padding-bottom: 40px;
+}
+
+#imagesection{
+	text-align: center;
+
+}
+
+.imagesquare{
+	display: inline-block;
+	width: 200px;
+	max-width: 46%;
+	/*padding: 2%;*/
+	margin: 10px;
+	opacity: 1;
+	order: 1;
+	-webkit-transition: opacity 2s; /* Safari */
+    transition: opacity 2s;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 15px;
+}
+
+.titletext{
+
+}
+
+.colorsquare{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+
+
+}
+.activebutton{
+	/* border: thick solid black; */
+	box-shadow: 0px 0px 5px blue;
+}
+
+.hidden{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+}
+.visuallyhidden{
+	opacity: 0;
+}
+
+
+/*.   Colors CSS.   */
+#red{
+	
+}
+#green{
+
+}
+#blue{
+	
+}
+#yellow{
+	
+}
+#showall{
+	text-decoration: underline;
+	padding: 5px;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	margin:0 auto;
+	margin-bottom: 5px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+
+/*.   Color buttons.   */
+#bluebutton{
+	background-color: blue;
+}
+#redbutton{
+	background-color: red;
+}
+#greenbutton{
+	background-color: green;
+}
+#yellowbutton{
+	background-color: yellow;
+}
